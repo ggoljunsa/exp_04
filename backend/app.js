@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000; //must change to 80 when communicating
+const port = 80; //must change to 80 when communicating
 var qs = require('querystring');
 var fs = require('fs')
 

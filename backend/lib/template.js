@@ -206,7 +206,7 @@ module.exports = {
         Pt. will not be returned if ads deemed inappropriate can be discontinued. <br>
         If you continue to execute advertisements that are deemed inappropriate, they may be blocked.`,
         adlist: ['Image Upload'],
-        contentslist: ['SpaceHashID', 'Exposure Frequency', 'Number of days', 'Total Points', 'Text', 'Tag'],
+        contentslist: ['SpaceHashID', 'Exposure Frequency', 'Number of days', 'Total Points', 'name', 'MapHashID'],
         placeholderlist: ['65jeBA', '2', '6', '12000.PT']
     },
     adlistFunc : function(adlist_site, adlist){
