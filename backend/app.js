@@ -39,7 +39,7 @@ app.post('/new_ad', (req, res, next) => {
         console.log(newJson);
         newJson.ad_len = Number(newJson['Exposure Frequency']);
         newJson.ad_num = Number(newJson['Number of days']);
-        newJson.textMessage = newJson['Text'];
+        
         console.log(newJson);
         fs.writeFileSync(`./data/${user_name}.json`, JSON.stringify(newJson), 'utf-8');
         res.redirect(302, '/');
