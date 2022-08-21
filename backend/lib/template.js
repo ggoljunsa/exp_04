@@ -148,8 +148,8 @@ module.exports = {
             </div>
             <ul class="navbar__menu">
                 <li><a href="">Home</a></li>
-                <li><a href="">Developer</a></li>
-                <li><a href="">Tips</a></li>
+                <li><a href="https://github.com/ssbnn/zep_junction_2022">Zep</a></li>
+                <li><a href="https://github.com/quart-cavestory/exp_04">Source Code</a></li>
             </ul>
             <ul class="navbar__icons">
                 <li><i class="fa-solid fa-right-to-bracket"></i></li>
